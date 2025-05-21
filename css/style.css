@@ -1,6 +1,6 @@
 body {
     font-size: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(226, 213, 152);
 }
 
 .container {
@@ -34,7 +34,39 @@ body {
     border-radius: 50px;
 }
 .about__top {
+    width: 1296px;
+    height: 500px;
     background-image:url(../images/book.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size:100% 100%;
+}
+.slider__text {
+    display: flex;  
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.chz {
+    padding-top: 50px;
+    padding-right: 160px;
+}
+.abb {
+    padding-top: 50px;
+    padding-left: 160px;
+}
+.carousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 500px;
+}
+.slider__iner {
+    display: flex;  
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.slide1 {
+    padding-right: 50px;
+}
+.slide2 {
+    padding-left: 50px;
 }
