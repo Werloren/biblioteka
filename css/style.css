@@ -11,6 +11,8 @@ body {
 .header__iner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
 }
 .menu__list {
     display: flex;
@@ -22,4 +24,17 @@ body {
 
 .logo_img {
     height: 100px;
+}
+.header__contact {
+    text-transform: uppercase;
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.book {
+    background-image:url(../images/book.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
