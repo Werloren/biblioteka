@@ -1,0 +1,25 @@
+body {
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.header__iner {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__list {
+    display: flex;
+    gap: 0 30px;
+}
+.menu__link {
+    text-transform: uppercase;
+}
+
+.logo_img {
+    height: 100px;
+}
