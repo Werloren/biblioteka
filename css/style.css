@@ -33,7 +33,7 @@ body {
     color: aliceblue;
     border-radius: 50px;
 }
-.book {
+.about__top {
     background-image:url(../images/book.jpg);
     background-repeat: no-repeat;
     background-position: center center;
