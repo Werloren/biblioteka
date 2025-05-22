@@ -1,6 +1,6 @@
 body {
     font-size: 20px;
-    background-color: rgb(226, 213, 152);
+    background-color:rgb(247, 247, 202) !important;
 }
 
 .container {
@@ -45,14 +45,6 @@ body {
     display: flex;  
     flex-wrap: nowrap;
     justify-content: center;
-}
-.chz {
-    padding-top: 50px;
-    padding-right: 160px;
-}
-.abb {
-    padding-top: 50px;
-    padding-left: 160px;
 }
 .carousel {
     padding-top: 50px;
