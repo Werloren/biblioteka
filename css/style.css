@@ -46,6 +46,11 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
 }
+.text__slider {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
 .carousel {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -63,4 +68,28 @@ body {
 }
 .slide2 {
     padding-left: 50px;
+}
+.form__inner{
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 0 0 5px 2px grey;
+	border: 3px solid grey
+}
+.textarea{
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px grey;
+	border: 3px solid grey 
+}
+.registration__form{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    background-image: url(../images/lev.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right;
 }
