@@ -7,3 +7,4 @@ $comment = $_POST['comment'];
  mail("test@test.ru", "Запись с сайта", "$name\n $email\n $comment");
 
 ?>
+<p>Сообщение отправлено</p>

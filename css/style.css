@@ -93,3 +93,6 @@ body {
     display: flex;
     background-position: right;
 }
+p {
+    text-align: justify;
+}
